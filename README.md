@@ -1,6 +1,6 @@
 # Environment Setup
 
-### VM Setup (RECOMMENDED)
+### VM Setup
 
 Step One:
 * Vagrant - [Download](https://www.vagrantup.com/downloads.html)
@@ -22,27 +22,3 @@ After that you will be logged in to your VM and will be able to run terminal com
 sudo commands the default password is ```vagrant```.
 
 If you have never used vagrant before that is ok but I would reccommend at least learning the basics.
-
-
-### Mac - Local Install
-
-Installing with Homebrew
-By far the easiest way to install go-ethereum is to use our Homebrew tap. If you don't have Homebrew, install it first. [Homebrew](https://brew.sh/)
-
-Then run the following commands to add the tap and install geth:
-```
-brew tap ethereum/ethereum
-brew install ethereum
-```
-
-After installing, run ```geth account``` new to create an account on your node.
-
-You should now be able to run geth and connect to the network.
-
-Make sure to check the different options and commands with ```geth --help```
-
-[Mac Local Install Reference](https://github.com/ethereum/go-ethereum/wiki/Installation-Instructions-for-Mac)
-
-### Windows
-
-[Windows Installation Instructions](https://github.com/ethereum/go-ethereum/wiki/Installation-instructions-for-Windows)
